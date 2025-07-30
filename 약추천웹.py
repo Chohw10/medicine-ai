@@ -13,8 +13,8 @@ if "단계" not in st.session_state:
 증상_데이터 = {
     "두통": {
         "키워드": ["머리", "두통"],
-        "약": "이부프로펜, 타이레놀",
-        "이미지": "https://www.tylenol.co.kr/products/tylenol-500mg"
+        "약": "타이레놀",
+        "이미지": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA0MjFfMjM3%2FMDAxNzQ1MjM2ODg4NzUz.WywyirBk_N-ZyHerlrFyqtqQ4Cakcvm6TtZFOM1Moi8g.2R5YxcbEA9tZAwU79TvCxmyg5eTbyVcqRYFTF-xOcMAg.PNG%2FKakaoTalk_20250421_210116629.png&type=sc960_832"
     },
     "기침": {
         "키워드": ["기침", "기침이", "기침나요"],
