@@ -28,8 +28,8 @@ if "단계" not in st.session_state:
     },
     "열": {
         "키워드": ["열", "열나요", "열이"],
-        "약": "타이레놀, 해열제",
-        "이미지": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Tylenol2006.jpg/640px-Tylenol2006.jpg"
+        "약": "타세놀",
+        "이미지": "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-2484-6246-b6cc-179b6d224b84/raw?se=2025-07-31T13%3A43%3A15Z&sp=r&sv=2024-08-04&sr=b&scid=860ccaf0-8088-5fe4-9f3e-d8e4e95379b9&skoid=5c72dd08-68ae-4091-b4e1-40ccec0693ae&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-30T22%3A16%3A34Z&ske=2025-07-31T22%3A16%3A34Z&sks=b&skv=2024-08-04&sig=IVrWDShdk8TXdARzMyEEti24AkPsQ44vT1nhzKepZJE%3D"
     },
     "복통": {
         "키워드": ["배", "복통", "속이"],
@@ -76,6 +76,9 @@ elif st.session_state["단계"] == "결과화면":
         약설명 = "💡 코푸스탑은 기침·가래에 사용되는 복합 진해·거담제입니다. 성인 기준  1회 1캡슐씩 1일 3회 식후에 복용해야 합니다."
     if "알러샷" in st.session_state["추천_약"]:
         약설명 = "💡 알러샷은 코막힘, 콧물, 재채기 같은 알레르기 비염 증상을 완화해주는 약입니다. 성인 및 12세 이상 소아 기준 1일 1회, 1정 복용합니다."
+
+    if "타세놀" in st.session_state["추천_약"]:
+        약설명 = "💡 타세놀은 열을 내리고 통증을 완화하는 해열진통제입니다. 성인 (만 12세 이상) 기준 1회 1~2정씩 1일 3-4회 (4-6시간 마다) 필요시 복용할 수 있습니다."
 
     if 약설명:
         st.info(약설명)
