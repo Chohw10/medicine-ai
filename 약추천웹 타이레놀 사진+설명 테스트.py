@@ -73,6 +73,9 @@ elif st.session_state["단계"] == "결과화면":
     if "타이레놀" in st.session_state["추천_약"]:
         약설명 = "💡 타이레놀은 두통, 치통, 생리통, 근육통, 감기 증상 등의 완화에 사용되는 해열진통제입니다."
 
+    if 약설명:
+        st.info(약설명)
+        
     # 왼쪽 아래에 "이전" 버튼
     with st.sidebar:
         if st.button("⬅ 이전으로 돌아가기"):
