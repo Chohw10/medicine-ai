@@ -33,8 +33,8 @@ if "단계" not in st.session_state:
     },
     "복통": {
         "키워드": ["배", "복통", "속이"],
-        "약": "베아제, 훼스탈",
-        "이미지": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Festal_tablets.jpg/800px-Festal_tablets.jpg"
+        "약": "부스코판",
+        "이미지": "https://sdmntprwestus3.oaiusercontent.com/files/00000000-b6f4-61fd-8694-e4fc16e1aecd/raw?se=2025-07-31T13%3A59%3A41Z&sp=r&sv=2024-08-04&sr=b&scid=945606ef-257f-5a29-8824-a0d42d03266b&skoid=c953efd6-2ae8-41b4-a6d6-34b1475ac07c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-30T22%3A38%3A30Z&ske=2025-07-31T22%3A38%3A30Z&sks=b&skv=2024-08-04&sig=GzirWX2B3obQk6fsJhbNvxK5ssO5KpCFimgGzMBlyH0%3D"
     }
 }
 
@@ -76,9 +76,10 @@ elif st.session_state["단계"] == "결과화면":
         약설명 = "💡 코푸스탑은 기침·가래에 사용되는 복합 진해·거담제입니다. 성인 기준  1회 1캡슐씩 1일 3회 식후에 복용해야 합니다."
     if "알러샷" in st.session_state["추천_약"]:
         약설명 = "💡 알러샷은 코막힘, 콧물, 재채기 같은 알레르기 비염 증상을 완화해주는 약입니다. 성인 및 12세 이상 소아 기준 1일 1회, 1정 복용합니다."
-
     if "타세놀" in st.session_state["추천_약"]:
         약설명 = "💡 타세놀은 열을 내리고 통증을 완화하는 해열진통제입니다. 성인 (만 12세 이상) 기준 1회 1~2정씩 1일 3-4회 (4-6시간 마다) 필요시 복용할 수 있습니다."
+    if "부스코판" in st.session_state["추천_약"]:
+        약설명 = "💡 부스코판은 장이나 위의 경련을 완화해 복통을 줄여주는 약입니다. 성인 및 12세 이상 소아 기준 1회 1-2정씩 1일 3회, 최대 6정 복용할 수 있습니다."
 
     if 약설명:
         st.info(약설명)
