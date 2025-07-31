@@ -14,7 +14,7 @@ if "단계" not in st.session_state:
     "두통": {
         "키워드": ["머리", "두통"],
         "약": "타이레놀",
-        "이미지": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA0MjFfMjM3%2FMDAxNzQ1MjM2ODg4NzUz.WywyirBk_N-ZyHerlrFyqtqQ4Cakcvm6TtZFOM1Moi8g.2R5YxcbEA9tZAwU79TvCxmyg5eTbyVcqRYFTF-xOcMAg.PNG%2FKakaoTalk_20250421_210116629.png&type=sc960_832"
+        "이미지": "https://sdmntpreastus.oaiusercontent.com/files/00000000-fb8c-61f9-84bd-6febd5f08841/raw?se=2025-07-31T05%3A12%3A19Z&sp=r&sv=2024-08-04&sr=b&scid=1f05717d-ca72-542d-ab28-1caf2460127c&skoid=ea0c7534-f237-4ccd-b7ea-766c4ed977ad&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-31T01%3A42%3A13Z&ske=2025-08-01T01%3A42%3A13Z&sks=b&skv=2024-08-04&sig=4ZczL2L5ejmqZK0n3OMsJRUUSXiUcyLF//4kwAWa3jM%3D"
     },
     "기침": {
         "키워드": ["기침", "기침이", "기침나요"],
