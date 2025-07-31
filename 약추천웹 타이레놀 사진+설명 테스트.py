@@ -19,7 +19,7 @@ if "단계" not in st.session_state:
     "기침": {
         "키워드": ["기침", "기침이", "기침나요"],
         "약": "코푸스탑",
-        "이미지": "https://sdmntprwestus3.oaiusercontent.com/files/00000000-e874-61fd-951a-ec9275ce9ed6/raw?se=2025-07-31T12%3A48%3A18Z&sp=r&sv=2024-08-04&sr=b&scid=f52a184b-e7c7-56f8-95e6-fe5448579d8a&skoid=5c72dd08-68ae-4091-b4e1-40ccec0693ae&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-31T10%3A09%3A52Z&ske=2025-08-01T10%3A09%3A52Z&sks=b&skv=2024-08-04&sig=Erc1N3A00qXhVFHNwST5zTNZTiApormdc/8yx7/foe8%3D"
+        "이미지": "https://sdmntprwestus3.oaiusercontent.com/files/00000000-e874-61fd-951a-ec9275ce9ed6/raw?se=2025-07-31T14%3A10%3A18Z&sp=r&sv=2024-08-04&sr=b&scid=b7a308b5-39c5-5de0-9529-7597e9e1232c&skoid=c953efd6-2ae8-41b4-a6d6-34b1475ac07c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-30T22%3A38%3A30Z&ske=2025-07-31T22%3A38%3A30Z&sks=b&skv=2024-08-04&sig=xPpMPYqfOQZHoDVZ0HXh3/xg9QKTytvzYNLii728oy0%3D"
     },
     "콧물": {
         "키워드": ["콧물", "코", "코가", "코막힘"],
