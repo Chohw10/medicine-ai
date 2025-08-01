@@ -24,7 +24,7 @@ if "단계" not in st.session_state:
     "콧물": {
         "키워드": ["콧물", "코", "코가", "코막힘"],
         "약": "알러샷",
-        "이미지": "https://sdmntprukwest.oaiusercontent.com/files/00000000-165c-6243-98d4-a03ef8375ef9/raw?se=2025-07-31T13%3A11%3A46Z&sp=r&sv=2024-08-04&sr=b&scid=3265e9e7-45ce-58f2-9737-e632024eed23&skoid=5c72dd08-68ae-4091-b4e1-40ccec0693ae&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-31T11%3A51%3A09Z&ske=2025-08-01T11%3A51%3A09Z&sks=b&skv=2024-08-04&sig=eq55Nkn8sWnLJ6MNMOqGeKFBFLaJ/YqkcPIhINCoJpE%3D"
+        "이미지": "https://github.com/Chohw10/medicine-ai/blob/main/%EC%95%8C%EB%9F%AC%EC%83%B7.png"
     },
     "열": {
         "키워드": ["열", "열나요", "열이"],
