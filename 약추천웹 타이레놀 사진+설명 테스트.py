@@ -83,6 +83,20 @@ elif st.session_state["단계"] == "결과화면":
 
     if 약설명:
         st.info(약설명)
+
+        # 약 이름 추출
+    약_이름 = st.session_state['추천_약'].split(',')[0].strip()
+    
+    # 온라인 쇼핑 링크 (예: 쿠팡)
+    쿠팡_링크 = f"https://www.coupang.com/np/search?query={약_이름}"
+    네이버_링크 = f"https://search.shopping.naver.com/search/all?query={약_이름}"
+    
+    st.markdown("### 🛒 온라인 최저가 보기")
+    col1, col2 = st.columns(2)
+    with col1:
+        st.link_button("쿠팡에서 보기", 쿠팡_링크)
+    with col2:
+        st.link_button("네이버에서 보기", 네이버_링크)
         
     # 왼쪽 아래에 "이전" 버튼
     with st.sidebar:
