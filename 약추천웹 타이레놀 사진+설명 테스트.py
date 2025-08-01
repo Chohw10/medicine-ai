@@ -14,12 +14,12 @@ if "단계" not in st.session_state:
     "두통": {
         "키워드": ["머리", "두통"],
         "약": "타이레놀",
-        "이미지": "https://sdmntpreastus.oaiusercontent.com/files/00000000-fb8c-61f9-84bd-6febd5f08841/raw?se=2025-07-31T13%3A11%3A46Z&sp=r&sv=2024-08-04&sr=b&scid=a0a35075-7f24-5138-bed0-85d541973d4e&skoid=5c72dd08-68ae-4091-b4e1-40ccec0693ae&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-30T22%3A14%3A57Z&ske=2025-07-31T22%3A14%3A57Z&sks=b&skv=2024-08-04&sig=KEtXLBDVWtaxmE9My2ceQAdhp9JyJoJ/qgE3xfVjQrI%3D"
+        "이미지": "https://github.com/Chohw10/medicine-ai/blob/main/%ED%83%80%EC%9D%B4%EB%A0%88%EB%86%80.png?raw=true"
     },
     "기침": {
         "키워드": ["기침", "기침이", "기침나요"],
         "약": "코푸스탑",
-        "이미지": "https://sdmntprwestus3.oaiusercontent.com/files/00000000-e874-61fd-951a-ec9275ce9ed6/raw?se=2025-07-31T14%3A10%3A18Z&sp=r&sv=2024-08-04&sr=b&scid=b7a308b5-39c5-5de0-9529-7597e9e1232c&skoid=c953efd6-2ae8-41b4-a6d6-34b1475ac07c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-30T22%3A38%3A30Z&ske=2025-07-31T22%3A38%3A30Z&sks=b&skv=2024-08-04&sig=xPpMPYqfOQZHoDVZ0HXh3/xg9QKTytvzYNLii728oy0%3D"
+        "이미지": "https://github.com/Chohw10/medicine-ai/blob/main/%EC%BD%94%ED%91%B8%EC%8A%A4%ED%83%91.png?raw=true"
     },
     "콧물": {
         "키워드": ["콧물", "코", "코가", "코막힘"],
@@ -29,12 +29,12 @@ if "단계" not in st.session_state:
     "열": {
         "키워드": ["열", "열나요", "열이"],
         "약": "타세놀",
-        "이미지": "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-2484-6246-b6cc-179b6d224b84/raw?se=2025-07-31T13%3A43%3A15Z&sp=r&sv=2024-08-04&sr=b&scid=860ccaf0-8088-5fe4-9f3e-d8e4e95379b9&skoid=5c72dd08-68ae-4091-b4e1-40ccec0693ae&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-30T22%3A16%3A34Z&ske=2025-07-31T22%3A16%3A34Z&sks=b&skv=2024-08-04&sig=IVrWDShdk8TXdARzMyEEti24AkPsQ44vT1nhzKepZJE%3D"
+        "이미지": "https://github.com/Chohw10/medicine-ai/blob/main/%ED%83%80%EC%84%B8%EB%86%80.png?raw=true"
     },
     "복통": {
         "키워드": ["배", "복통", "속이"],
         "약": "부스코판",
-        "이미지": "https://sdmntprwestus3.oaiusercontent.com/files/00000000-b6f4-61fd-8694-e4fc16e1aecd/raw?se=2025-07-31T13%3A59%3A41Z&sp=r&sv=2024-08-04&sr=b&scid=945606ef-257f-5a29-8824-a0d42d03266b&skoid=c953efd6-2ae8-41b4-a6d6-34b1475ac07c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-30T22%3A38%3A30Z&ske=2025-07-31T22%3A38%3A30Z&sks=b&skv=2024-08-04&sig=GzirWX2B3obQk6fsJhbNvxK5ssO5KpCFimgGzMBlyH0%3D"
+        "이미지": "https://github.com/Chohw10/medicine-ai/blob/main/%EB%B6%80%EC%8A%A4%EC%BD%94%ED%8C%90.png?raw=true"
     }
 }
 
