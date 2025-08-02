@@ -65,12 +65,11 @@ if st.session_state["단계"] == "입력화면":
             st.error("😢 죄송해요, 그 증상에 대한 정보가 아직 없어요.")
 
 elif st.session_state["단계"] == "결과화면":
-    st.success(f"💊 추천 약: {st.session_state['추천_약']}")
     st.markdown(f"""
-        <h2 style='text-align: center; color: darkgreen;'>
-            💊 추천 약: <span style='font-size: 40px;'>{st.session_state['추천_약']}</span>
-        </h2>
-    """, unsafe_allow_html=True)
+    <div style='text-align: center; font-size: 32px; font-weight: bold; color: green;'>
+        💊 추천 약: {st.session_state['추천_약']}
+    </div>
+""", unsafe_allow_html=True)
     st.image(st.session_state["추천_이미지"], width=300)
 
      # 약 설명 자동 출력
